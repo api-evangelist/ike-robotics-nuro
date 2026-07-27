@@ -1,8 +1,26 @@
 aid: ike-robotics-nuro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ike-robotics-nuro.png
 name: Ike Robotics (Nuro)
-description: 'Ike Robotics (Nuro) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Nuro is an autonomous-vehicle technology company that builds the Nuro Driver,
+  an AI-first self-driving system it now licenses to automakers and mobility providers
+  rather than operating its own delivery fleet. Nuro acquired the assets and team of Ike
+  Robotics, an autonomous-trucking startup, folding that self-driving expertise into its
+  Level 4 autonomy platform. The company partners with firms such as Uber and Lucid to
+  deploy robotaxis and other autonomous applications, and pairs the Nuro Driver with the
+  Nuro Toolkit for validation and deployment. Nuro operates a B2B licensing model and does
+  not publish a public developer API; this profile captures its public web, security, and
+  identity surface. Backed by Bain Capital Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/ike-robotics-nuro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai Apps
+- Autonomous Vehicles
+- Self-Driving
+- Robotics
+- Artificial Intelligence
+- Mobility
+- Autonomous Trucking
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ike-robotics-nuro-domain-security.yml
+- type: Website
+  url: https://www.nuro.ai/
+- type: Blog
+  url: https://www.nuro.ai/blog
+- type: Support
+  url: https://www.nuro.ai/contact
+- type: PrivacyPolicy
+  url: https://www.nuro.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.nuro.ai/terms
+- type: GitHubOrganization
+  url: https://github.com/nuro-ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
